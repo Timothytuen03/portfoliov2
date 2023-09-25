@@ -17,7 +17,7 @@ function About() {
                     <Image src="/images/cape.jpg" width={100} height={102} className="w-1/4 h-auto place-self-center"/>
                 </div>
                 <div className="text-center mt-[2rem]">
-                    <p className="md:text-l text-m ml-4 mr-4 mb-10">I'm a rising junior of Rutgers University's Business School set to graduate in May of 2025 
+                    <p className="md:text-l text-m ml-4 mr-4 mb-10 leading-7">I'm a rising junior of Rutgers University's Business School set to graduate in May of 2025 
                         with a double major in Computer Science and Business Analytics/Information Technology 
                         (BAIT). My interests lie heavily with anything technology related and I'm currently 
                         looking for internship roles that include but are not limited to software engineering, 
@@ -44,7 +44,7 @@ function About() {
                         </li>
                         <li>
                             <p className="mb-5">
-                                I've finished over 200 episodes of One Piece (why are there 1000 episodes 
+                                ~ I've finished over 200 episodes of One Piece (why are there 1000 episodes 
                                 please help)
                             </p>
                         </li>
