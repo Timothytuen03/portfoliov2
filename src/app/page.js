@@ -1,6 +1,7 @@
 import Intro from './Intro'
 import About from './About'
 import Projects from './Projects'
+import Education from './Education'
 import Link from 'next/link'
 
 function Navbar() {
@@ -27,6 +28,7 @@ export default function Home() {
       <Intro id="intro"/>
       <About id="about"/>
       <Projects id="projects"/>
+      <Education id="edu"/>
     </div>
   )
 }

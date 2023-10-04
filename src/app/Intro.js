@@ -3,10 +3,10 @@ import Link from "next/link"
 
 function Intro() {
   return (
-    <div className="min-h-[90vh] mt-[6rem] flex flex-col md:justify-start ml-5 text-center md:text-start">
-        <h1 className="relative l-[2rem] md:text-5xl text-3xl mt-[8rem]"><b>Timothy Tuen</b></h1>
-        <h3 className="mt-3 md:text-2xl text-sm">Student at Rutgers University (NB), studying CS and BAIT</h3>
-        <p className="md:w-[40%] mt-4 md:text-lg">Hello everyone, my name is Timothy Tuen and I'm a Rutgers University - 
+    <div className="min-h-[90vh] mt-[6rem] flex flex-col md:justify-start ml-5 text-center md:text-start font-markazi">
+        <h1 className="relative l-[2rem] md:text-5xl text-3xl mt-[8rem] font-libre"><b>Timothy Tuen</b></h1>
+        <h3 className="mt-3 md:text-[36px] text-sm italic">Student at Rutgers University (NB), studying CS and BAIT</h3>
+        <p className="md:w-[40%] mt-4 md:text-[24px] ml-3">Hello everyone, my name is Timothy Tuen and I'm a Rutgers University - 
             New Brunswick student studying <u>Computer Science</u> and <u>Business 
             Analytics/Information Technology</u>. I'm currently seeking internship roles involving 
             full-stack web development, app development, data analytics, etc. </p>

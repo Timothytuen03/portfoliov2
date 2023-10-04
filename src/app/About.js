@@ -2,10 +2,10 @@ import Image from "next/image";
 
 function About() {
     return (
-        <div className="min-h-[70vh]">
-            <h1 className="text-center text-[56px]">About...</h1>
+        <div className="min-h-[70vh] font-markazi">
+            <h1 className="text-center text-[56px] font-libre">About...</h1>
             <div>
-                <h3 className="text-center text-wrap text-[20px]">I'm Tim, a college student from 
+                <h3 className="text-center text-wrap text-[30px] pl-2 pr-2">I'm Tim, a college student from 
                 Monroe Township, New Jersey set to graduate May of 2025 
                 with a bachelors degree in Computer Science and Business Analytics/Information 
                 Technology (BAIT) from Rutgers University
@@ -17,7 +17,7 @@ function About() {
                     <Image src="/images/cape.jpg" width={100} height={102} className="w-1/4 h-auto place-self-center"/>
                 </div>
                 <div className="text-center mt-[2rem]">
-                    <p className="md:text-l text-m ml-4 mr-4 mb-10 leading-7">I'm a rising junior of Rutgers University's Business School set to graduate in May of 2025 
+                    <p className="md:text-[28px] text-[20px] ml-4 mr-4 mb-10 leading-7">I'm a rising junior of Rutgers University's Business School set to graduate in May of 2025 
                         with a double major in Computer Science and Business Analytics/Information Technology 
                         (BAIT). My interests lie heavily with anything technology related and I'm currently 
                         looking for internship roles that include but are not limited to software engineering, 
@@ -26,8 +26,8 @@ function About() {
                         reach out!
                     </p>
 
-                    <h2 className="md:text-xl text-l ml-4 mr-4 underline">Some Hobbies and Interests!</h2>
-                    <ul>
+                    <h2 className="md:text-[28px] text-[24px] ml-4 mr-4 underline font-libre">Some Hobbies and Interests!</h2>
+                    <ul className="md:text-[24px] text-[20px]">
                         <li>
                             <p className="mt-1 mb-5">~ I enjoy playing basketball and participate in Men's and intramural leagues </p>
                         </li>
@@ -35,7 +35,7 @@ function About() {
                             <p className="mb-5">~ I played lacrosse in high school and am a big fan of watching college lacrosse</p>
                         </li>
                         <li>
-                            <p className="mb-5">~ Rick Riordian is my all time favorite author (probably because of nastalgia) and is
+                            <p className="mb-5">~ Rick Riordian is my all time favorite author and is
                                 the reason I'm into Greek and Roman mythology/history
                             </p>
                         </li>
