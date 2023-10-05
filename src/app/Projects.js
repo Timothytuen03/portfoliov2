@@ -15,7 +15,13 @@ function Projects() {
             <div className="inline-flex items-center justify-center">
                 {/* <hr className="w-[100px] border-solid border-white border-2 border-spacing-[50px] mt-[18px]"/> */}
                 <hr className="w-20 h-1 my-8 bg-gray-200 border-0 rounded mr-3"/>
-                <Image src="/images/code_purple.png" width={50} height={50} className="place-self-center"/>
+                <Image 
+                    src="/images/code_purple.png" 
+                    width={50} 
+                    height={50} 
+                    className="place-self-center"
+                    alt="code-symbol-break"
+                />
                 <hr className="w-20 h-1 my-8 bg-gray-200 border-0 rounded ml-3"/>
             </div>
 
@@ -26,7 +32,13 @@ function Projects() {
                         onMouseEnter={() => setpwHover(true)}
                         onMouseLeave={() => setpwHover(false)}
                     >
-                        <Image src="/images/PlayWay-logo.png" width={300} height={300} className={pwHover ? "hidden" :"place-self-center"}/>
+                        <Image 
+                            src="/images/PlayWay-logo.png" 
+                            width={300} 
+                            height={300} 
+                            className={pwHover ? "hidden" :"place-self-center"}
+                            alt="PlayWay logo"
+                        />
                         <div className={pwHover ? "" :"hidden"}>
                             <p className="text-black">An Activity picking app for multiple users!</p>
                             <p className="text-black">Used React Native (Expo) for development for the first time and learned new things about
@@ -45,7 +57,13 @@ function Projects() {
                         onMouseEnter={() => setrrHover(true)}
                         onMouseLeave={() => setrrHover(false)}
                     >
-                        <Image src="/images/" width={300} height={300} className={rrHover ? "hidden" : "place-self-center"}/>
+                        <Image 
+                            src="/images/" 
+                            width={300} 
+                            height={300} 
+                            className={rrHover ? "hidden" : "place-self-center"}
+                            alt="Recipe Research Logo"
+                        />
                         <div className={rrHover ? "" : "hidden"}>
                             <p>A website that will suggest recipes based on certain preferences/restrictions</p>
                             <p>
@@ -64,7 +82,13 @@ function Projects() {
                         onMouseEnter={() => setfmHover(true)}
                         onMouseLeave={() => setfmHover(false)}
                     >
-                        <Image src="/images/PlayWay-logo.png" width={300} height={300} className={fmHover ? "hidden" : "place-self-center"}/>
+                        <Image 
+                            src="/images/PlayWay-logo.png" 
+                            width={300} 
+                            height={300} 
+                            className={fmHover ? "hidden" : "place-self-center"}
+                            alt="FitMed Logo"
+                        />
                         <div className={fmHover ? "" : "hidden"}>
                             <p className="text-black hover:block hidden">A task management and project planning website. Add categories, tasks, and project ideas/progress!</p>
                             <p className="text-black hover:block">
@@ -85,7 +109,12 @@ function Projects() {
                         onMouseEnter={() => setnlHover(true)}
                         onMouseLeave={() => setnlHover(false)}
                     >
-                        <Image src="/images/newsletter_app.png" width={300} height={300} className={nlHover ? "hidden" : "place-self-center"}/>
+                        <Image src="/images/newsletter_app.png" 
+                            width={300} 
+                            height={300} 
+                            className={nlHover ? "hidden" : "place-self-center"}
+                            alt="newsletter app logo"
+                        />
                         <div className={nlHover ? "" : "hidden"}>
                             <p>Keep up-to-date with relevant breakthroughs and articles for your major and interests</p>
                             <p></p>

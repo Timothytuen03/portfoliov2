@@ -15,7 +15,7 @@ function Education() {
 
         <div className="inline-flex items-center justify-center">
             <hr className="w-20 h-1 my-8 bg-gray-200 border-0 rounded mr-3"/>
-            <Image src="/images/code_purple.png" width={50} height={50} className="place-self-center"/>
+            <Image src="/images/code_purple.png" width={50} height={50} className="place-self-center" alt='code-symbol-break'/>
             <hr className="w-20 h-1 my-8 bg-gray-200 border-0 rounded ml-3"/>
         </div>
 
@@ -28,6 +28,7 @@ function Education() {
                         src='/images/RUTGERS_V_RED_WHITE_RGB.png' 
                         height={120} 
                         width={120} 
+                        alt='Rutgers Logo'
                         />
                 </div>
                 <div className='flex flex-col justify-center relative left-[80px] font-markazi text-[30px]'>

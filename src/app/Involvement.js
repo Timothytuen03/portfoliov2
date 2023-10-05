@@ -9,7 +9,7 @@ function Involvement() {
 
         <div className="inline-flex items-center justify-center">
             <hr className="w-20 h-1 my-8 bg-gray-200 border-0 rounded mr-3"/>
-            <Image src="/images/code_purple.png" width={50} height={50} className="place-self-center"/>
+            <Image src="/images/code_purple.png" width={50} height={50} className="place-self-center" alt='code-symbol-break'/>
             <hr className="w-20 h-1 my-8 bg-gray-200 border-0 rounded ml-3"/>
         </div>
 

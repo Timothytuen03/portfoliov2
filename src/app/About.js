@@ -11,10 +11,34 @@ function About() {
                 Technology (BAIT) from Rutgers University
                 </h3>
                 <div className="flex w-3/4 m-auto mt-5">
-                    <Image src="/images/london2.JPG" width={100} height={100} className="w-1/4 h-auto place-self-center"/>
-                    <Image src="/images/family.jpeg" width={100} height={100} className="w-1/4 h-auto place-self-center"/>
-                    <Image src="/images/london.JPG" width={100} height={100} className="w-1/4 h-auto place-self-center"/>
-                    <Image src="/images/cape.jpg" width={100} height={102} className="w-1/4 h-auto place-self-center"/>
+                    <Image 
+                        src="/images/london2.JPG" 
+                        width={100} 
+                        height={100} 
+                        className="w-1/4 h-auto place-self-center"
+                        alt="Tim in London"
+                    />
+                    <Image 
+                        src="/images/family.jpeg" 
+                        width={100} 
+                        height={100} 
+                        className="w-1/4 h-auto place-self-center"
+                        alt="Tim and Family"
+                    />
+                    <Image 
+                        src="/images/london.JPG" 
+                        width={100} 
+                        height={100} 
+                        className="w-1/4 h-auto place-self-center"
+                        alt="Tim in London 2"
+                    />
+                    <Image 
+                        src="/images/cape.jpg" 
+                        width={100} 
+                        height={102} 
+                        className="w-1/4 h-auto place-self-center"
+                        alt="Tim in Cape Cod"
+                    />
                 </div>
                 <div className="text-center mt-[2rem]">
                     <p className="md:text-[28px] text-[20px] ml-4 mr-4 mb-10 leading-7">I'm a rising junior of Rutgers University's Business School set to graduate in May of 2025 
