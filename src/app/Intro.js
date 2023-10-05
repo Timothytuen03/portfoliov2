@@ -29,6 +29,7 @@ function Intro() {
                   width={25}
                   height={25}
                   className="mr-3"
+                  alt="Linkedin Logo"
                 />
                   <b>LinkedIn</b>
           </Link>
@@ -40,6 +41,7 @@ function Intro() {
                   width={25}
                   height={25}
                   className="mr-3"
+                  alt="github logo"
                   />
                 <b>GitHub</b>
             </Link>
