@@ -2,6 +2,7 @@ import Intro from './Intro'
 import About from './About'
 import Projects from './Projects'
 import Education from './Education'
+import Involvement from './Involvement'
 import Link from 'next/link'
 
 function Navbar() {
@@ -29,6 +30,7 @@ export default function Home() {
       <About id="about"/>
       <Projects id="projects"/>
       <Education id="edu"/>
+      <Involvement id="involvement"/>
     </div>
   )
 }

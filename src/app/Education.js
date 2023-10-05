@@ -39,10 +39,10 @@ function Education() {
                 </div>
             </div>
             <div className='flex flex-col w-[100vw] mt-[20px]'>
-                <div className='flex'>
+                <div className='flex mt-[15px]'>
                     <h1 className='mt-auto mb-auto w-[15vw] text-center text-[36px]'>Coursework</h1>
                     <div className='flex justify-evenly w-[85vw] flex-wrap gap-y-5'>
-                        <div className='bg-[#D9D9D9] lg:w-[320px] lg:h-[320px] flex flex-col justify-center 
+                        <div className='bg-white lg:w-[320px] lg:h-[250px] flex flex-col justify-center 
                     items-center rounded-lg text-black text-center'
                         onMouseEnter={() => setDSHover(true)}
                         onMouseLeave={() => setDSHover(false)}
@@ -63,105 +63,75 @@ function Education() {
                             </div>
                         </div>
 
-                        <div className='bg-[#D9D9D9] lg:w-[320px] lg:h-[320px] flex flex-col justify-center 
+                        <div className='bg-white lg:w-[320px] lg:h-[250px] flex flex-col justify-center 
                     items-center rounded-lg text-black text-center'
                         onMouseEnter={() => setCAHover(true)}
                         onMouseLeave={() => setCAHover(false)}
                     >
-                            <h3 className={caHover ? "hidden" : 'text-lg'}>Data Structures</h3>
-                            <p className={caHover ? "hidden" : 'text-lg'}>OOP, Java, VSCode</p>
+                            <h3 className={caHover ? "hidden" : 'text-lg'}>Computer Architecture</h3>
+                            <p className={caHover ? "hidden" : 'text-lg'}>C, Unix, Assembly, Binary, Memory</p>
                             <div className={caHover ? "" : "hidden"}>
-                                <p>Students learn to analyze algorithm efficiency and select appropriate abstract 
-                                    data types. The course covers 
-                                    data structure tradeoffs and the design of structures for operations like 
-                                    insertion and deletion. Advanced topics include combining structures for 
-                                    complex problem-solving and predicting algorithm behavior through code 
-                                    analysis. Students gain expertise in error detection and resolution, 
-                                    ensuring implementations align with intended outcomes. The course culminates 
-                                    in tailored designs of data structures and algorithms.
+                                <p>
+                                    
                                 </p>
 
                             </div>
                         </div>
 
-                        <div className='bg-[#D9D9D9] lg:w-[320px] lg:h-[320px] flex flex-col justify-center 
+                        <div className='bg-white lg:w-[320px] lg:h-[250px] flex flex-col justify-center 
                     items-center rounded-lg text-black text-center'
                         onMouseEnter={() => setAlgosHover(true)}
                         onMouseLeave={() => setAlgosHover(false)}
                     >
-                            <h3 className={algosHover ? "hidden" : 'text-lg'}>Data Structures</h3>
-                            <p className={algosHover ? "hidden" : 'text-lg'}>OOP, Java, VSCode</p>
+                            <h3 className={algosHover ? "hidden" : 'text-lg'}>Design & Analysis of Algorithms</h3>
+                            <p className={algosHover ? "hidden" : 'text-lg'}> </p>
                             <div className={algosHover ? "" : "hidden"}>
-                                <p>Students learn to analyze algorithm efficiency and select appropriate abstract 
-                                    data types. The course covers 
-                                    data structure tradeoffs and the design of structures for operations like 
-                                    insertion and deletion. Advanced topics include combining structures for 
-                                    complex problem-solving and predicting algorithm behavior through code 
-                                    analysis. Students gain expertise in error detection and resolution, 
-                                    ensuring implementations align with intended outcomes. The course culminates 
-                                    in tailored designs of data structures and algorithms.
+                                <p>
+
                                 </p>
 
                             </div>
                         </div>
-                        <div className='bg-[#D9D9D9] lg:w-[320px] lg:h-[320px] flex flex-col justify-center 
+                        <div className='bg-white lg:w-[320px] lg:h-[250px] flex flex-col justify-center 
                     items-center rounded-lg text-black text-center'
                         onMouseEnter={() => setDiscreteHover(true)}
                         onMouseLeave={() => setDiscreteHover(false)}
                     >
-                            <h3 className={discreteHover ? "hidden" : 'text-lg'}>Data Structures</h3>
-                            <p className={discreteHover ? "hidden" : 'text-lg'}>OOP, Java, VSCode</p>
+                            <h3 className={discreteHover ? "hidden" : 'text-lg'}>Discrete Structures</h3>
+                            <p className={discreteHover ? "hidden" : 'text-lg'}> </p>
                             <div className={discreteHover ? "" : "hidden"}>
-                                <p>Students learn to analyze algorithm efficiency and select appropriate abstract 
-                                    data types. The course covers 
-                                    data structure tradeoffs and the design of structures for operations like 
-                                    insertion and deletion. Advanced topics include combining structures for 
-                                    complex problem-solving and predicting algorithm behavior through code 
-                                    analysis. Students gain expertise in error detection and resolution, 
-                                    ensuring implementations align with intended outcomes. The course culminates 
-                                    in tailored designs of data structures and algorithms.
+                                <p>
+
                                 </p>
 
                             </div>
                         </div>
 
-                        <div className='bg-[#D9D9D9] lg:w-[320px] lg:h-[320px] flex flex-col justify-center 
+                        <div className='bg-white lg:w-[320px] lg:h-[250px] flex flex-col justify-center 
                     items-center rounded-lg text-black text-center'
                         onMouseEnter={() => setDBHover(true)}
                         onMouseLeave={() => setDBHover(false)}
                     >
-                            <h3 className={dbHover ? "hidden" : 'text-lg'}>Data Structures</h3>
-                            <p className={dbHover ? "hidden" : 'text-lg'}>OOP, Java, VSCode</p>
+                            <h3 className={dbHover ? "hidden" : 'text-lg'}>Principles of Information & Data Management</h3>
+                            <p className={dbHover ? "hidden" : 'text-lg'}>SQL, RDBMS</p>
                             <div className={dbHover ? "" : "hidden"}>
-                                <p>Students learn to analyze algorithm efficiency and select appropriate abstract 
-                                    data types. The course covers 
-                                    data structure tradeoffs and the design of structures for operations like 
-                                    insertion and deletion. Advanced topics include combining structures for 
-                                    complex problem-solving and predicting algorithm behavior through code 
-                                    analysis. Students gain expertise in error detection and resolution, 
-                                    ensuring implementations align with intended outcomes. The course culminates 
-                                    in tailored designs of data structures and algorithms.
+                                <p>
+
                                 </p>
 
                             </div>
                         </div>
 
-                        <div className='bg-[#D9D9D9] lg:w-[320px] lg:h-[320px] flex flex-col justify-center 
+                        <div className='bg-white lg:w-[320px] lg:h-[250px] flex flex-col justify-center 
                     items-center rounded-lg text-black text-center'
                         onMouseEnter={() => setFoundationsHover(true)}
                         onMouseLeave={() => setFoundationsHover(false)}
                     >
-                            <h3 className={foundationsHover ? "hidden" : 'text-lg'}>Data Structures</h3>
-                            <p className={foundationsHover ? "hidden" : 'text-lg'}>OOP, Java, VSCode</p>
+                            <h3 className={foundationsHover ? "hidden" : 'text-lg'}>Foundations of Business Programming</h3>
+                            <p className={foundationsHover ? "hidden" : 'text-lg'}>Python</p>
                             <div className={foundationsHover ? "" : "hidden"}>
-                                <p>Students learn to analyze algorithm efficiency and select appropriate abstract 
-                                    data types. The course covers 
-                                    data structure tradeoffs and the design of structures for operations like 
-                                    insertion and deletion. Advanced topics include combining structures for 
-                                    complex problem-solving and predicting algorithm behavior through code 
-                                    analysis. Students gain expertise in error detection and resolution, 
-                                    ensuring implementations align with intended outcomes. The course culminates 
-                                    in tailored designs of data structures and algorithms.
+                                <p>
+
                                 </p>
 
                             </div>
@@ -170,11 +140,28 @@ function Education() {
                     </div>
 
                 </div>
-                <div>
-                    <h1>Involvement</h1>
+                {/* <div className='flex justify-center w-[100vw] mt-[40px]'>
+                    <h1 className='mt-auto mb-auto w-[15vw] text-center text-[36px]'>Involvement</h1>
+                    <div className='flex justify-evenly w-[85vw] flex-wrap gap-y-5'>
+                        <div className='bg-[#D9D9D9] lg:w-[320px] lg:h-[320px] flex flex-col justify-center 
+                            items-center rounded-lg text-black text-center'>
+                            <h1>Assistant Director of Finance</h1>
+                            <h1>Rutgers University Dance Marathon</h1>
+                        </div>
+                        <div className='bg-[#D9D9D9] lg:w-[320px] lg:h-[320px] flex flex-col justify-center 
+                            items-center rounded-lg text-black text-center'>
+                            <h1>Vice President of Website Development</h1>
+                            <h1>Rutgers Business Information Technology Society (B.I.T.S)</h1>
+                        </div>
+                        <div className='bg-[#D9D9D9] lg:w-[320px] lg:h-[320px] flex flex-col justify-center 
+                            items-center rounded-lg text-black text-center'>
+                            <h1>Technology Consultant</h1>
+                            <h1>Rutgers Office of Information Technology</h1>
+                        </div>
+                    </div>
 
                     
-                </div>
+                </div> */}
             </div>
         </div>
     </div>
