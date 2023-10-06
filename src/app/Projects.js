@@ -58,13 +58,13 @@ function Projects() {
                         onMouseLeave={() => setrrHover(false)}
                     >
                         <Image 
-                            src="/images/" 
+                            src="/images/recipegensc.png" 
                             width={300} 
                             height={300} 
                             className={rrHover ? "hidden" : "place-self-center"}
                             alt="Recipe Research Logo"
                         />
-                        <div className={rrHover ? "" : "hidden"}>
+                        <div className={rrHover ? "text-black" : "hidden"}>
                             <p>A website that will suggest recipes based on certain preferences/restrictions</p>
                             <p>
                                 Built with Next.js and React, the website runs with the Metaphor API built on the backend.
@@ -83,7 +83,7 @@ function Projects() {
                         onMouseLeave={() => setfmHover(false)}
                     >
                         <Image 
-                            src="/images/PlayWay-logo.png" 
+                            src="/images/huge.png" 
                             width={300} 
                             height={300} 
                             className={fmHover ? "hidden" : "place-self-center"}
@@ -115,9 +115,13 @@ function Projects() {
                             className={nlHover ? "hidden" : "place-self-center"}
                             alt="newsletter app logo"
                         />
-                        <div className={nlHover ? "" : "hidden"}>
+                        <div className={nlHover ? "text-black" : "hidden"}>
                             <p>Keep up-to-date with relevant breakthroughs and articles for your major and interests</p>
-                            <p></p>
+                            <p>Utilized the Metaphor API to search the web and find articles that fulfill 
+                                criteria such as your major and interests. Used Passport.js to configure 
+                                user authentication, as well as Node.js and Express.js. In addition, Next.js
+                                framework was used to implement React.js
+                            </p>
 
                         </div>
                     </div>

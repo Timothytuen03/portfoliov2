@@ -13,7 +13,7 @@ function Involvement() {
             <hr className="w-20 h-1 my-8 bg-gray-200 border-0 rounded ml-3"/>
         </div>
 
-        <div className='w-[90vw] flex justify-evenly text-center mt-[30px]'>
+        <div className='w-[90vw] flex md:flex-row flex-col justify-evenly text-center mt-[30px]'>
             <div className='w-[240px] h-[300px] bg-white text-black'>
                 <h1 className='text-[24px] pt-[5px]'>Assistant Director of Finance</h1>
                 <h2 className='text-[20px] underline'>Rutgers University Dance Marathon</h2>
