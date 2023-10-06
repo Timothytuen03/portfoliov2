@@ -9,6 +9,20 @@
   --background-end-rgb: 85, 85, 85;
 }
 
+.embla, .embla__viewport {
+  overflow: hidden;
+  margin-bottom: 0;
+}
+.embla__container {
+  display: flex;
+}
+.embla__slide {
+  flex: 0 0 100%;
+  min-width: 0;
+  justify-content: center;
+  align-items: center;
+}
+
 
 /* @media (prefers-color-scheme: dark) {
   :root {

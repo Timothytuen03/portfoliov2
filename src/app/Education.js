@@ -1,6 +1,7 @@
 'use client'
-import React, { useState } from 'react'
+import React, { useState, useEffect, useCallback } from 'react'
 import Image from 'next/image'
+import useEmblaCarousel from 'embla-carousel-react';
 
 function Education() {
     const [dsHover, setDSHover] = useState(false);
@@ -9,8 +10,24 @@ function Education() {
     const [discreteHover, setDiscreteHover] = useState(false);
     const [dbHover, setDBHover] = useState(false);
     const [foundationsHover, setFoundationsHover] = useState(false);
+    const [emblaRef, emblaApi] = useEmblaCarousel({loop: true});
+
+    const scrollPrev = useCallback(() => {
+        if (emblaApi) emblaApi.scrollPrev()
+      }, [emblaApi])
+    
+      const scrollNext = useCallback(() => {
+        if (emblaApi) emblaApi.scrollNext()
+      }, [emblaApi])
+
+    useEffect(() => {
+        if (emblaApi) {
+          console.log(emblaApi.slideNodes()) // Access API
+        }
+      }, [emblaApi])
+
   return (
-    <div className="min-h-[100vh] mt-[65px] flex-col flex items-center w-100vw font-markazi">
+    <div className="mt-[65px] flex-col flex items-center w-100vw font-markazi">
         <h1 className="text-center text-[56px] font-libre">Education</h1>
 
         <div className="inline-flex items-center justify-center">
@@ -19,38 +36,17 @@ function Education() {
             <hr className="w-20 h-1 my-8 bg-gray-200 border-0 rounded ml-3"/>
         </div>
 
-        <div className='flex flex-col'>
-            <div className='flex justify-center w-[100vw] mt-[40px]'>
-                <div className='bg-[#D9D9D9] w-[210px] h-[210px] flex justify-center 
-                items-center rounded-full relative right-[80px]'
-                >
-                    <Image 
-                        src='/images/RUTGERS_V_RED_WHITE_RGB.png' 
-                        height={120} 
-                        width={120} 
-                        alt='Rutgers Logo'
-                        />
-                </div>
-                <div className='flex flex-col justify-center relative left-[80px] font-markazi text-[30px]'>
-                    <h1> Rutgers University - New Brunswick (RBS)</h1>
-                    <h3>Bachelors in Business Analytics/Information Technology (BAIT)</h3>
-                    <h3>Bachelors in Computer Science</h3>
-                    <p>GPA: 3.948</p>
-                    <p>Grad: May 2025</p>
-                </div>
-            </div>
-            <div className='flex flex-col w-[100vw] mt-[20px]'>
-                <div className='flex mt-[15px]'>
-                    <h1 className='mt-auto mb-auto w-[15vw] text-center text-[36px]'>Coursework</h1>
-                    <div className='flex justify-evenly w-[85vw] flex-wrap gap-y-5'>
-                        <div className='bg-white lg:w-[340px] lg:h-[250px] flex flex-col justify-center 
-                    items-center rounded-lg text-black text-center'
-                        onMouseEnter={() => setDSHover(true)}
-                        onMouseLeave={() => setDSHover(false)}
-                    >
-                            <h3 className={dsHover ? "hidden" : 'text-lg'}>Data Structures</h3>
-                            <p className={dsHover ? "hidden" : 'text-lg'}>OOP, Java, VSCode</p>
-                            <div className={dsHover ? "" : "hidden"}>
+        <div className="embla mt-[30px]" >
+            <div className='embla__viewport' ref={emblaRef}>
+
+                <div className="embla__container">
+                    <div className="embla__slide">
+                        <div className='bg-white w-[75%] h-[300px] flex flex-col justify-center 
+                            items-center rounded-lg text-black text-center ml-auto mr-auto md:text-[22px]'
+                        >
+                            <h3 className='text-[28px]'>Data Structures</h3>
+                            <p className='text-[26px]'>OOP, Java, VSCode</p>
+                            <div className="p-[8px]">
                                 <p>Students learn to analyze algorithm efficiency and select appropriate abstract 
                                     data types. The course covers 
                                     data structure tradeoffs and the design of structures for operations like 
@@ -63,15 +59,14 @@ function Education() {
 
                             </div>
                         </div>
-
-                        <div className='bg-white lg:w-[340px] lg:h-[250px] flex flex-col justify-center 
-                    items-center rounded-lg text-black text-center'
-                        onMouseEnter={() => setCAHover(true)}
-                        onMouseLeave={() => setCAHover(false)}
-                    >
-                            <h3 className={caHover ? "hidden" : 'text-lg'}>Computer Architecture</h3>
-                            <p className={caHover ? "hidden" : 'text-lg'}>C, Unix, Assembly, Binary, Memory</p>
-                            <div className={caHover ? "" : "hidden"}>
+                    </div>
+                    <div className="embla__slide">
+                        <div className='bg-white w-[75%] h-[300px] flex flex-col justify-center 
+                            items-center rounded-lg text-black text-center ml-auto mr-auto md:text-[22px]'
+                        >
+                            <h3 className='text-[28px]'>Computer Architecture</h3>
+                            <p className='text-[26px]'>C, Unix, Assembly, Binary, Memory</p>
+                            <div className="p-[8px]">
                                 <p>
                                 This college course immerses students in essential computer science topics 
                                 such as C programming, data representation, assembly language programming, 
@@ -85,15 +80,14 @@ function Education() {
 
                             </div>
                         </div>
-
-                        <div className='bg-white lg:w-[340px] lg:h-[250px] flex flex-col justify-center 
-                    items-center rounded-lg text-black text-center'
-                        onMouseEnter={() => setAlgosHover(true)}
-                        onMouseLeave={() => setAlgosHover(false)}
-                    >
-                            <h3 className={algosHover ? "hidden" : 'text-lg'}>Design & Analysis of Computer Algorithms</h3>
-                            <p className={algosHover ? "hidden" : 'text-lg'}> </p>
-                            <div className={algosHover ? "" : "hidden"}>
+                    </div>
+                    <div className="embla__slide">
+                        <div className='bg-white w-[75%] h-[300px] flex flex-col justify-center 
+                            items-center rounded-lg text-black text-center ml-auto mr-auto md:text-[22px]'
+                        >
+                            <h3 className='text-[28px]'>Design & Analysis of Computer Algorithms</h3>
+                            <p className='text-[26px]'></p>
+                            <div className="p-[8px]">
                                 <p>
                                 This course covers algorithm complexity, methods to express 
                                 and compare algorithms' complexities in worst and average cases, and 
@@ -108,44 +102,42 @@ function Education() {
 
                             </div>
                         </div>
-                        <div className='bg-white lg:w-[340px] lg:h-[250px] flex flex-col justify-center 
-                    items-center rounded-lg text-black text-center'
-                        onMouseEnter={() => setDiscreteHover(true)}
-                        onMouseLeave={() => setDiscreteHover(false)}
-                    >
-                            <h3 className={discreteHover ? "hidden" : 'text-lg'}>Discrete Structures</h3>
-                            <p className={discreteHover ? "hidden" : 'text-lg'}> </p>
-                            <div className={discreteHover ? "" : "hidden"}>
+                    </div>
+                    <div className="embla__slide">
+                        <div className='bg-white w-[75%] h-[300px] flex flex-col justify-center 
+                            items-center rounded-lg text-black text-center ml-auto mr-auto md:text-[22px]'
+                        >
+                            <h3 className='text-[28px]'>Discrete Structures</h3>
+                            <p className='text-[26px]'> </p>
+                            <div className="p-[8px]">
                                 <p>
 
                                 </p>
 
                             </div>
                         </div>
-
-                        <div className='bg-white lg:w-[340px] lg:h-[250px] flex flex-col justify-center 
-                    items-center rounded-lg text-black text-center'
-                        onMouseEnter={() => setDBHover(true)}
-                        onMouseLeave={() => setDBHover(false)}
-                    >
-                            <h3 className={dbHover ? "hidden" : 'text-lg'}>Principles of Information & Data Management</h3>
-                            <p className={dbHover ? "hidden" : 'text-lg'}>SQL, RDBMS</p>
-                            <div className={dbHover ? "" : "hidden"}>
+                    </div>
+                    <div className="embla__slide">
+                        <div className='bg-white w-[75%] h-[300px] flex flex-col justify-center 
+                            items-center rounded-lg text-black text-center ml-auto mr-auto md:text-[22px]'
+                        >
+                            <h3 className='text-[28px]'>Principles of Information and Data Management</h3>
+                            <p className='text-[26px]'>SQL, RDBMS</p>
+                            <div className="p-[8px]">
                                 <p>
 
                                 </p>
 
                             </div>
                         </div>
-
-                        <div className='bg-white lg:w-[340px] lg:h-[250px] flex flex-col justify-center 
-                    items-center rounded-lg text-black text-center'
-                        onMouseEnter={() => setFoundationsHover(true)}
-                        onMouseLeave={() => setFoundationsHover(false)}
-                    >
-                            <h3 className={foundationsHover ? "hidden" : 'text-lg'}>Foundations of Business Programming</h3>
-                            <p className={foundationsHover ? "hidden" : 'text-lg'}>Python</p>
-                            <div className={foundationsHover ? "" : "hidden"}>
+                    </div>
+                    <div className="embla__slide">
+                        <div className='bg-white w-[75%] h-[300px] flex flex-col justify-center 
+                            items-center rounded-lg text-black text-center ml-auto mr-auto md:text-[22px]'
+                        >
+                            <h3 className='text-[28px]'>Foundations of Business Programming</h3>
+                            <p className='text-[26px]'>Python</p>
+                            <div className="p-[8px]">
                                 <p>
 
                                 </p>
@@ -154,34 +146,16 @@ function Education() {
                         </div>
 
                     </div>
-
                 </div>
-                {/* <div className='flex justify-center w-[100vw] mt-[40px]'>
-                    <h1 className='mt-auto mb-auto w-[15vw] text-center text-[36px]'>Involvement</h1>
-                    <div className='flex justify-evenly w-[85vw] flex-wrap gap-y-5'>
-                        <div className='bg-[#D9D9D9] lg:w-[320px] lg:h-[320px] flex flex-col justify-center 
-                            items-center rounded-lg text-black text-center'>
-                            <h1>Assistant Director of Finance</h1>
-                            <h1>Rutgers University Dance Marathon</h1>
-                        </div>
-                        <div className='bg-[#D9D9D9] lg:w-[320px] lg:h-[320px] flex flex-col justify-center 
-                            items-center rounded-lg text-black text-center'>
-                            <h1>Vice President of Website Development</h1>
-                            <h1>Rutgers Business Information Technology Society (B.I.T.S)</h1>
-                        </div>
-                        <div className='bg-[#D9D9D9] lg:w-[320px] lg:h-[320px] flex flex-col justify-center 
-                            items-center rounded-lg text-black text-center'>
-                            <h1>Technology Consultant</h1>
-                            <h1>Rutgers Office of Information Technology</h1>
-                        </div>
-                    </div>
+            </div>
+            <div className='flex justify-between'>
+                <button className="embla__prev ml-[25px] text-[24px]" onClick={scrollPrev}>Prev</button>
+                <button className="embla__next mr-[25px] text-[24px]" onClick={scrollNext}>Next</button>
 
-                    
-                </div> */}
             </div>
         </div>
     </div>
   )
 }
 
-export default Education
+export default Education;
