@@ -18,7 +18,7 @@ function Intro() {
           alt="Picture of author"/>
 
         <div className="flex flex-col mt-10 w-[300px]">
-          <h3 className="md:text-[32px]">Contact:</h3>
+          <h3 className="md:text-[32px] font-libre">Contact:</h3>
           <p className="mt-3 text-[18px] text-[#4F709C] bg-[#F8F0E5] rounded-[10px] text-center"><b>timothytuen45@gmail.com</b></p>
           <p className="mt-3 text-[18px] text-[#4F709C] bg-[#F8F0E5] rounded-[10px] text-center"><b>+1 (732)-672-7245</b></p>
           <Link 

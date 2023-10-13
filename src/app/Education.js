@@ -44,7 +44,7 @@ function Education() {
                         <div className='bg-white w-[75%] h-[300px] flex flex-col justify-center 
                             items-center rounded-lg text-black text-center ml-auto mr-auto md:text-[22px]'
                         >
-                            <h3 className='text-[28px]'>Data Structures</h3>
+                            <h3 className='text-[28px] font-libre'>Data Structures</h3>
                             <p className='text-[26px]'>OOP, Java, VSCode</p>
                             <div className="p-[8px]">
                                 <p>Students learn to analyze algorithm efficiency and select appropriate abstract 
@@ -64,7 +64,7 @@ function Education() {
                         <div className='bg-white w-[75%] h-[300px] flex flex-col justify-center 
                             items-center rounded-lg text-black text-center ml-auto mr-auto md:text-[22px]'
                         >
-                            <h3 className='text-[28px]'>Computer Architecture</h3>
+                            <h3 className='text-[28px] font-libre'>Computer Architecture</h3>
                             <p className='text-[26px]'>C, Unix, Assembly, Binary, Memory</p>
                             <div className="p-[8px]">
                                 <p>
@@ -85,7 +85,7 @@ function Education() {
                         <div className='bg-white w-[75%] h-[300px] flex flex-col justify-center 
                             items-center rounded-lg text-black text-center ml-auto mr-auto md:text-[22px]'
                         >
-                            <h3 className='text-[28px]'>Design & Analysis of Computer Algorithms</h3>
+                            <h3 className='text-[28px] font-libre'>Design & Analysis of Computer Algorithms</h3>
                             <p className='text-[26px]'></p>
                             <div className="p-[8px]">
                                 <p>
@@ -107,7 +107,7 @@ function Education() {
                         <div className='bg-white w-[75%] h-[300px] flex flex-col justify-center 
                             items-center rounded-lg text-black text-center ml-auto mr-auto md:text-[22px]'
                         >
-                            <h3 className='text-[28px]'>Discrete Structures</h3>
+                            <h3 className='text-[28px] font-libre'>Discrete Structures</h3>
                             <p className='text-[26px]'> </p>
                             <div className="p-[8px]">
                                 <p>
@@ -121,7 +121,7 @@ function Education() {
                         <div className='bg-white w-[75%] h-[300px] flex flex-col justify-center 
                             items-center rounded-lg text-black text-center ml-auto mr-auto md:text-[22px]'
                         >
-                            <h3 className='text-[28px]'>Principles of Information and Data Management</h3>
+                            <h3 className='text-[28px] font-libre'>Principles of Information and Data Management</h3>
                             <p className='text-[26px]'>SQL, RDBMS</p>
                             <div className="p-[8px]">
                                 <p>
@@ -135,7 +135,7 @@ function Education() {
                         <div className='bg-white w-[75%] h-[300px] flex flex-col justify-center 
                             items-center rounded-lg text-black text-center ml-auto mr-auto md:text-[22px]'
                         >
-                            <h3 className='text-[28px]'>Foundations of Business Programming</h3>
+                            <h3 className='text-[28px] font-libre'>Foundations of Business Programming</h3>
                             <p className='text-[26px]'>Python</p>
                             <div className="p-[8px]">
                                 <p>

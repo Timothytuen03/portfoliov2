@@ -27,7 +27,7 @@ function Projects() {
 
             <div className="mt-[20px] flex justify-around w-[100%] text-center">
                 <div className="flex flex-col items-center max-w-[48%] w-[48%]">
-                    <h1 className="text-[30px] text-center">PlayWay</h1>
+                    <h1 className="text-[26px] text-center font-libre">PlayWay</h1>
                     <div className="h-[300px] w-[300px] bg-white flex justify-center items-center"
                         onMouseEnter={() => setpwHover(true)}
                         onMouseLeave={() => setpwHover(false)}
@@ -52,7 +52,7 @@ function Projects() {
 
                 </div>
                 <div className="flex flex-col items-center w-[48%] max-w-[48%]">
-                    <h1 className="text-[30px] text-center">Recipe Research</h1>
+                    <h1 className="text-[26px] text-center font-libre">Recipe Research</h1>
                     <div className="h-[300px] w-[300px] bg-white flex justify-center items-center"
                         onMouseEnter={() => setrrHover(true)}
                         onMouseLeave={() => setrrHover(false)}
@@ -77,7 +77,7 @@ function Projects() {
             </div>
             <div className="mt-[20px] flex justify-evenly w-[100%] text-center">
                 <div className="flex flex-col items-center max-w-[48%] w-[48%]">
-                    <h1 className="text-[30px] text-center">FitMed</h1>
+                    <h1 className="text-[26px] text-center font-libre">FitMed</h1>
                     <div className="h-[300px] w-[300px] bg-white flex justify-center items-center"
                         onMouseEnter={() => setfmHover(true)}
                         onMouseLeave={() => setfmHover(false)}
@@ -104,7 +104,8 @@ function Projects() {
 
                 </div>
                 <div className="flex flex-col items-center max-w-[48%] w-[48%]">
-                    <h1>Newsletter</h1>
+                    {/* <h1 classname="text-[26px] text-center font-libre">Newsletter</h1> */}
+                    <p className="text-[26px] text-center font-libre">Newsletter</p>
                     <div className="h-[300px] w-[300px] bg-white flex justify-center items-center"
                         onMouseEnter={() => setnlHover(true)}
                         onMouseLeave={() => setnlHover(false)}

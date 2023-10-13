@@ -15,21 +15,21 @@ function Involvement() {
 
         <div className='w-[90vw] flex md:flex-row flex-col justify-evenly text-center mt-[30px]'>
             <div className='w-[240px] h-[300px] bg-white text-black'>
-                <h1 className='text-[24px] pt-[5px]'>Assistant Director of Finance</h1>
+                <h1 className='text-[20px] pt-[5px] font-libre'>Assistant Director of Finance</h1>
                 <h2 className='text-[20px] underline'>Rutgers University Dance Marathon</h2>
                 <p>RUDM is the largest student-run philanthropic organization in New Jersey that fundraises money in support of
                     children and families diagnosed with blood disorders and cancer through Embrace Kids Foundation
                 </p>
             </div>
             <div className='w-[240px] h-[300px] bg-white text-black'>
-                <h1 className='text-[24px] pt-[5px]'>VP of Website Development</h1>
+                <h1 className='text-[20px] pt-[5px] font-libre'>VP of Website Development</h1>
                 <h2 className='text-[20px] underline'>Business Information Technology Society (B.I.T.S)</h2>
                 <p>B.I.T.S focuses on providing students at Rutgers with information and experience on the intersection between Business and Technology.
                     This is done through various ways, such as technical workshops and professional events.
                 </p>
             </div>
             <div className='w-[240px] h-[300px] bg-white text-black'>
-                <h1 className='text-[24px] pt-[5px]'>Technology Consultant</h1>
+                <h1 className='text-[20px] pt-[5px] font-libre'>Technology Consultant</h1>
                 <h2 className='text-[20px] underline'>Rutgers Office of Information Technology</h2>
                 <p>
                     As a technology consultant at Rutgers OIT, I assist patrons with any technology questions/concerns they may have. In addition, technology
@@ -37,14 +37,14 @@ function Involvement() {
                 </p>
             </div>
             <div className='w-[240px] h-[300px] bg-white text-black'>
-                <h1 className='text-[24px] pt-[5px]'>Intramural Basketball Participant</h1>
+                <h1 className='text-[20px] pt-[5px] font-libre'>Intramural Basketball Participant</h1>
                 <p>
                     I am a very big basketball fan and often participate in intramural basketball leagues at Rutgers. In addition, I also participate in
                     summer mens basketball leagues at my local gyms/basketball centers
                 </p>
             </div>
             <div className='w-[240px] h-[300px] bg-white text-black'>
-                <h1 className='text-[24px] pt-[5px]'>Hackathons</h1>
+                <h1 className='text-[20px] pt-[5px] font-libre'>Hackathons</h1>
                 <h2 className='text-[20px] underline'>PennApps, HackRU</h2>
                 <p>
                     I am a huge advocate for hackathons and have been fortunate enough to attend more events this past year. I've recently gone to 
