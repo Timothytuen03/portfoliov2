@@ -11,10 +11,11 @@ function Navbar() {
       <div className='absolute top-2 md:flex justify-start w-full'>
         <h3 className='ml-5'>Timothy Tuen</h3>
         <h3 className='ml-5'>|</h3>
-        <a className='ml-5' href="#intro">Home</a>
-        <a className='ml-5' href="#about">About</a>
-        <a className='ml-5' href='#projects'>Projects</a>
-        <a className='ml-5'>Education</a>
+        <Link className='ml-5' href="#intro" scroll={false}>Home</Link>
+        <Link className='ml-5' href="#about" scroll={false}>About</Link>
+        <Link className='ml-5' href='#projects' scroll={false}>Projects</Link>
+        <Link className='ml-5' href='#edu'>Education</Link>
+        <Link className='ml-5' href='#involvement'>Involvement</Link>
       </div>
     </nav>
   )
@@ -26,11 +27,11 @@ export default function Home() {
       <header className='block'>
         <Navbar/>
       </header>
-      <Intro id="intro"/>
-      <About id="about"/>
-      <Projects id="projects"/>
-      <Education id="edu"/>
-      <Involvement id="involvement"/>
+      <section id="intro"><Intro id="intro"/></section>
+      <section id="about"><About id="about"/></section>
+      <section id="projects"><Projects/></section>
+      <section id="edu"><Education /></section>
+      <section id="involvement"><Involvement id="involvement"/></section>
     </div>
   )
 }
