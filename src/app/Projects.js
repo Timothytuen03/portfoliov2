@@ -8,7 +8,7 @@ function Projects() {
     const [nlHover, setnlHover] = useState(false);
 
     return(
-        <div className="min-h-[100vh] mt-[65px] flex-col flex items-center w-100vw font-markazi">
+        <div className="min-h-[80vh] mt-[65px] flex-col flex items-center justify-center w-100vw font-markazi">
             <h1 className="text-center text-[56px] font-libre">Projects</h1>
 
             {/* <div className="h-[5px] w-[100px] border-dashed border-white border-t-2 border-spacing-[10px]"></div> */}

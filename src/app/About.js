@@ -2,7 +2,7 @@ import Image from "next/image";
 
 function About() {
     return (
-        <div className="min-h-[70vh] font-markazi">
+        <div className="min-h-[50vh] font-markazi">
             <h1 className="text-center text-[56px] font-libre">About...</h1>
             <div>
                 <h3 className="text-center text-wrap text-[30px] pl-2 pr-2">I'm Tim, a college student from 

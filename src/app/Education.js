@@ -35,8 +35,8 @@ function Education() {
             <Image src="/images/code_purple.png" width={50} height={50} className="place-self-center" alt='code-symbol-break'/>
             <hr className="w-20 h-1 my-8 bg-gray-200 border-0 rounded ml-3"/>
         </div>
-
         <div className="embla mt-[30px]" >
+        <h1 className='text-center text-[50px]'>Relevant Courses</h1>
             <div className='embla__viewport' ref={emblaRef}>
 
                 <div className="embla__container">
@@ -110,9 +110,13 @@ function Education() {
                             <h3 className='text-[28px] font-libre'>Discrete Structures</h3>
                             <p className='text-[26px]'> </p>
                             <div className="p-[8px]">
-                                <p>
-
-                                </p>
+                                <q cite='https://discrete.cs.rutgers.edu/'>
+                                This course introduces student to the mathematical tools of logic and induction, and to the basic definitions and theorems 
+                                concerning relations, functions, and sets. Later courses in the computer science curriculum build on the mathematical 
+                                foundations covered here. Particular emphasis is placed on inductive definitions and proofs, with application to problems 
+                                in computer science. Special topics such as proofs of partial program correctness, finite state automata and modula 
+                                arithmetic will be discussed
+                                </q>
 
                             </div>
                         </div>
@@ -124,10 +128,13 @@ function Education() {
                             <h3 className='text-[28px] font-libre'>Principles of Information and Data Management</h3>
                             <p className='text-[26px]'>SQL, RDBMS</p>
                             <div className="p-[8px]">
-                                <p>
-
-                                </p>
-
+                                <q cite='https://www.cs.rutgers.edu/academics/undergraduate/course-synopses/course-details/01-198-336-principles-of-information-and-data-management'>
+                                    Describing and querying various forms of information such as structured data in relational databases, unstructured 
+                                    text (IR), semi-structured data (XML, web), deductive knowledge. Conceptual modeling and schema design. Basics of 
+                                    database management system services (transactions, reliability, security, optimization). Advanced topics: 
+                                    finding patterns in data, information mapping and integration. The course focuses on a user's perspective, rather than 
+                                    how one implements DBMS
+                                </q>
                             </div>
                         </div>
                     </div>
@@ -139,7 +146,12 @@ function Education() {
                             <p className='text-[26px]'>Python</p>
                             <div className="p-[8px]">
                                 <p>
-
+                                This course aims to equip students with foundational skills and knowledge in Python programming. The curriculum focuses on 
+                                building a fundamental understanding of the Python language, covering essential functionalities such as working with lists,
+                                 conditional statements, loops, and file management (opening/writing to files). Upon completion, students are expected to 
+                                 showcase a grasp of basic Python grammar, algorithms, data structures, computational thinking, and practical experience 
+                                 in developing a program from inception. The acquisition of these skills is facilitated through various course activities 
+                                 and assignments designed to reinforce hands-on learning.
                                 </p>
 
                             </div>

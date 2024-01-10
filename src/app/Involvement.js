@@ -4,7 +4,7 @@ import Image from 'next/image'
 
 function Involvement() {
   return (
-    <div className="min-h-[75vh] mt-[65px] flex-col flex items-center w-100vw font-markazi">
+    <div className="min-h-[50vh] mt-[65px] flex-col flex items-center w-100vw font-markazi">
         <h1 className="text-center text-[56px] font-libre">Involvement</h1>
 
         <div className="inline-flex items-center justify-center">
@@ -48,8 +48,7 @@ function Involvement() {
                 <h2 className='text-[20px] underline'>PennApps, HackRU</h2>
                 <p>
                     I am a huge advocate for hackathons and have been fortunate enough to attend more events this past year. I've recently gone to 
-                    the University of Pennsylvania PennApps hackathon, as well as Rutgers University's HackRU. In addition, I am signed up for 
-                    HackHarvard in the future!
+                    the University of Pennsylvania PennApps hackathon, as well as Rutgers University's HackRU.
                 </p>
             </div>
         </div>
