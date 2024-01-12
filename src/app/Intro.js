@@ -11,7 +11,7 @@ function Intro() {
             Analytics/Information Technology</u>. I'm currently seeking internship roles involving 
             full-stack web development, app development, data analytics, etc. </p>
         <Image 
-          className="md:absolute lg:left-[55%] md:left-[40%]"
+          className="md:absolute lg:left-[55%] md:left-[40%] z-0"
           src="/images/profile.JPG" 
           width={500} 
           height={500} 

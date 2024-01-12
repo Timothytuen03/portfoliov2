@@ -8,12 +8,12 @@ import Link from 'next/link'
 function Navbar() {
   return (
     <nav>
-      <div className='absolute top-2 md:flex justify-start w-full'>
+      <div className=' md:flex justify-center text-cyan-600 bg-white'>
         <h3 className='ml-5'>Timothy Tuen</h3>
         <h3 className='ml-5'>|</h3>
-        <Link className='ml-5' href="#intro" scroll={false}>Home</Link>
-        <Link className='ml-5' href="#about" scroll={false}>About</Link>
-        <Link className='ml-5' href='#projects' scroll={false}>Projects</Link>
+        <Link className='ml-5' href="#intro" scroll={true}>Home</Link>
+        <Link className='ml-5' href="#about" scroll={true}>About</Link>
+        <Link className='ml-5' href='#projects'>Projects</Link>
         <Link className='ml-5' href='#edu'>Education</Link>
         <Link className='ml-5' href='#involvement'>Involvement</Link>
       </div>
@@ -24,14 +24,14 @@ function Navbar() {
 export default function Home() {
   return (
     <div>
-      <header className='block'>
+      <header className='fixed top-0 w-[100vw] z-50'>
         <Navbar/>
       </header>
       <section id="intro"><Intro id="intro"/></section>
       <section id="about"><About id="about"/></section>
       <section id="projects"><Projects/></section>
       <section id="edu"><Education /></section>
-      <section id="involvement"><Involvement id="involvement"/></section>
+      <section id="involvement"><Involvement/></section>
     </div>
   )
 }
